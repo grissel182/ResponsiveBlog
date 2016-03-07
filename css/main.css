@@ -1,0 +1,159 @@
+.fondo{
+	background-color: #280E2E;
+}
+
+/*header*/
+.bg-black{
+	background-color: black;
+
+}
+.logo{
+	width: 50%
+}
+.navbar-default {
+  background-color: transparent !important;
+  border-color: none !important;
+}
+.navbar-nav > li > a {
+  color: white !important;
+}
+.navbar-toggle {
+  border-color: none !important;
+}
+.white{
+	background-color: white !important;
+}
+.boton{
+	border: none !important;
+}
+
+/*menu desplegable*/
+
+
+/*margenes y paddings*/
+.pt-3{
+	padding-top: 3%;
+}
+.pr-5{
+	padding-right: 3em;
+}
+.mt-2{
+	margin-top: 2%;
+}
+.mg-20{
+	margin: 0 20%;
+}
+.ml-2{
+	margin-left: 3%;
+}
+.mg-1{
+	margin: 1%;
+}
+.pt-20{
+	padding-top: 8%;
+}
+.pd-5{
+	padding: 10%
+}
+.pb-20{
+	padding-bottom: 20%;
+}
+.pt-5{
+	padding-top: 4%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.plr-20{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.padding1{
+	padding: 8% 5% 5%;
+}
+/*textos fuentes y tamaños*/
+.courgette{
+	font-family: 'courgette'
+}
+.yellow{
+	color:#DD973C;
+}
+.fs10{
+	font-size: 5em;
+}
+.text-white{
+	color: white;
+}
+.text-gray{
+	color: #9E9B9B;
+}
+
+/*-------------------------*/
+.bg-1{
+	background-image: url(../image/header-image.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 380px;
+}
+.w-100{
+	width: 100%;
+
+}
+/*------------*/
+/*imagenes*/
+.imagenes{
+	background-color: #1C0922;
+	padding-bottom: 2%;
+}
+.search{
+	border-radius: 5px;
+	border: none !important;
+	background-color: #280E2E;
+	padding: 2%;
+}
+.well{
+	background-color: #1C0922 !important;
+	border: none !important;
+}
+.circle{
+	border-radius: 100%;
+	background-color: #280E2E;
+	padding: 3%;
+	width: 48px;
+	height: 48px;
+}
+.inline{
+	display: inline-block;
+}
+.nk{
+	text-decoration: none;
+	color: #311245;
+}
+footer{
+	background-color: #1C0922;
+	padding: 2%;
+	margin-top: 3%;
+}
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+ 	.logo{
+ 		width: 70%;
+ 	}
+ 	.padding2{
+ 		padding: 4% !important;
+ 	}
+ 	.mt-2{
+ 		margin-top:2%;
+ 	}
+ 	.bg-1{
+		height: 320px;
+ 	}
+ 	.no-show{
+ 		display: none;
+ 	}
+}
